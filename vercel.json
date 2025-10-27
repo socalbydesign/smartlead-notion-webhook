@@ -1,9 +1,8 @@
-{
   "version": 2,
   "builds": [
     {
       "src": "api/webhook.py",
-      "use": "@U”=rcel/python@latest"
+      "use": "@vercel/python@latest"
     }
   ],
   "routes": [
