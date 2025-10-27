@@ -1,1 +1,15 @@
-{"version": 2, "builds": [{"src": "api/webhook.py", "use": "@vercel/python@latest"}], "routes": [{"src": "/(.*)", "dest": "api/webhook.py"}]}
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/webhook.py",
+      "use": "@U”=rcel/python@latest"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "api/webhook.py"
+    }
+  ]
+}
